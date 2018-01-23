@@ -24,3 +24,11 @@ if isAvailable == false
   return false
 end
 end
+
+def won(board)
+WIN_COMBINATIONS.each do |combination|
+  if board[combination[0]] == "X" && board[combination[1]] == "X" && board[combination[2]] == "X"
+    return combination
+  end
+end
+end
