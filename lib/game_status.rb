@@ -35,4 +35,9 @@ end
 
 def draw(board)
 incomplete_board = !full(board)
+if incomplete_board == true
+  return false
+else
+  return true
+
 end
