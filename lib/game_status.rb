@@ -19,6 +19,6 @@ def won(board)
    end
 end
 if isAvailable == false
-  return nil
+  return false
 end
 end
