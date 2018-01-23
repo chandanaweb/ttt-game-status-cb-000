@@ -44,6 +44,4 @@ end
   else
     return true
   end
-  
-
 end
