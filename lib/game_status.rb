@@ -18,4 +18,7 @@ def won(board)
     return combination
    end
 end
+if isAvailable == false
+  return nil
+end
 end
