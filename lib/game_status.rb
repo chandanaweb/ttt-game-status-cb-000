@@ -21,7 +21,7 @@ WIN_COMBINATIONS.each do |combination|
 end
 
 #FULL method
-def FULL?(board)
+def full?(board)
   any_spaces =  board.any?{|element| element == " "}
   if any_spaces== true
     return false
