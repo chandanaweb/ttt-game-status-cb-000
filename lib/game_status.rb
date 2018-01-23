@@ -37,7 +37,13 @@ def draw?(board)
 incomplete_board = !full?(board)
 if incomplete_board == true
   return false
-else
-  return true
 end
+  board_won = won?(board)
+  if board_won == true
+    return false
+  else
+    return true
+  end
+  
+
 end
