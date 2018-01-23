@@ -53,10 +53,10 @@ def over?(board)
       return true
     end
   end
-    draw = full?(board)
-    if draw == true
+  draw = full?(board)
+     if draw == true
       return true
-    else
+     else
       return false
-   end
+     end
    end
