@@ -63,7 +63,7 @@ def over?(board)
 
    def winner(board)
      WIN_COMBINATIONS.each do |combination|
-       if combination1 = board[combination[0]] == "X" && board[combination[1]] == "X" && board[combination[2]] == "X" 
+       if combination1 = board[combination[0]] == "X" && board[combination[1]] == "X" && board[combination[2]] == "X"
          return "X"
           elsif combination2 = board[combination[0]] == "O" && board[combination[1]] == "O" && board[combination[2]] == "O"
          return "O"
