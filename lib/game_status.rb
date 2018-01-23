@@ -62,11 +62,17 @@ def over?(board)
    end
 
    def winner(board)
+       no_combinations = true
      WIN_COMBINATIONS.each do |combination|
        if combination1 = board[combination[0]] == "X" && board[combination[1]] == "X" && board[combination[2]] == "X"
+           no_combinations = false
          return "X"
           elsif combination2 = board[combination[0]] == "O" && board[combination[1]] == "O" && board[combination[2]] == "O"
+            no_combinations = false
          return "O"
        end
+     end
+     if no_combinations == true
+       return false
      end
      end
