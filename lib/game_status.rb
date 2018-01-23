@@ -45,3 +45,11 @@ WIN_COMBINATIONS.each do |combination|
   end
  end
 end
+
+def over?
+  incomplete_board = !full?(board)
+  if incomplete_board == true
+    return false
+  else
+    return true
+  end
