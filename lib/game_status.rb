@@ -15,3 +15,4 @@ def won(board)
  WIN_COMBINATIONS.each do |combination|
    combinations.include?(combination)
 end
+end
