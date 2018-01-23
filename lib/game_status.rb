@@ -34,5 +34,5 @@ def full?(board)
 end
 
 def draw(board)
-
+incomplete_board = !full(board)
 end
