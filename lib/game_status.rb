@@ -20,6 +20,7 @@ WIN_COMBINATIONS.each do |combination|
  end
  if no_combinations == true
    return false
+ end
 end
 
 #FULL method
