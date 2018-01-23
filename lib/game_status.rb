@@ -46,7 +46,7 @@ WIN_COMBINATIONS.each do |combination|
  end
 end
 
-def over?
+def over?(board)
   incomplete_board = !full?(board)
   if incomplete_board == true
     return false
