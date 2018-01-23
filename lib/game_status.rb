@@ -73,6 +73,6 @@ def over?(board)
        end
      end
      if no_combinations == true
-       return false
+       return nil
      end
      end
