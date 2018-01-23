@@ -13,6 +13,9 @@ def won(board)
    end
  end
  WIN_COMBINATIONS.each do |combination|
-   combinations.include?(combination)
+   isAvailable = combinations.include?(combination)
+   if isAvailable == true
+    return combination
+   end
 end
 end
